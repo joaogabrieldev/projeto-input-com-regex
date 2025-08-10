@@ -16,10 +16,10 @@ Um projeto web simples que demonstra a formatação automática de campos de ent
 
 ## 🛠️ Tecnologias Utilizadas
 
-### Frontend
 - **HTML5** - Estrutura semântica da página
 - **CSS3** - Estilização e responsividade
 - **JavaScript (ES6+)** - Lógica de formatação e interatividade
+- **RegEx**: Para verificação de padrões
 
 ### Recursos Externos
 - **Google Fonts** - Famílias Inter e Roboto
