@@ -2,6 +2,10 @@
 
 Um projeto web simples que demonstra a formatação automática de campos de entrada usando Expressões Regulares (RegEx) para CPF e telefone.
 
+## 🌐 Teste agora
+
+**[Clique Aqui ⭐](https://regex-input.vercel.app/)** - Site disponível para uso
+
 ## 🚀 Funcionalidades
 
 - **Formatação automática de CPF**: Aplica máscara XXX.XXX.XXX-XX em tempo real
@@ -20,45 +24,6 @@ Um projeto web simples que demonstra a formatação automática de campos de ent
 ### Recursos Externos
 - **Google Fonts** - Famílias Inter e Roboto
 - **Fontes Locais** - Mozilla Text Variable Font
-
-## 📁 Estrutura do Projeto
-
-```
-projeto-input-com-regex/
-├── 📄 index.html          # Página principal HTML
-├── 🎨 style.css           # Estilos CSS
-├── ⚙️ script.js           # Lógica JavaScript
-├── 🔤 fonts/              # Fontes locais
-│   └── MozillaText-VariableFont_wght.ttf
-├── 🖼️ imgs/               # Imagens do projeto
-└── 📜 LICENSE             # Licença do projeto
-```
-
-## 🔧 Padrões de Projeto Implementados
-
-### 1. **Separação de Responsabilidades**
-- HTML para estrutura
-- CSS para apresentação
-- JavaScript para comportamento
-
-### 2. **Event-Driven Programming**
-- Uso de event listeners para capturar mudanças nos inputs
-- Formatação automática em tempo real
-
-### 3. **Modularização de Funções**
-- `formatarCPF()` - Lógica específica para formatação de CPF
-- `formatarTEL()` - Lógica específica para formatação de telefone
-
-### 4. **CSS Custom Properties (Variáveis)**
-- Uso de variáveis CSS para fontes e cores
-- Facilita manutenção e consistência visual
-
-### 5. **Responsive Design**
-- Uso de unidades dinâmicas (dvh, dvw)
-- Layout flexbox para centralização
-- Media queries implícitas através de unidades relativas
-
-## 📱 Funcionalidades Técnicas
 
 ### Formatação de CPF
 ```javascript
@@ -93,26 +58,13 @@ if (valorLimpo.length > 7) {
 - **Transições**: Animações suaves em hover e focus
 - **Bordas arredondadas**: Design moderno com border-radius
 
-## 🚀 Como Executar
+## 🌐 Teste agora
 
-1. Clone o repositório
-2. Abra o arquivo `index.html` em um navegador web
-3. Teste a formatação digitando nos campos de CPF e telefone
-
-## 📋 Requisitos
-
-- Navegador web moderno com suporte a ES6+
-- Conexão com internet (para carregar Google Fonts)
+**[Demo Online](https://regex-input.vercel.app/)** - Teste o projeto diretamente no navegador
 
 ## 👨‍💻 Autor
 
 **João G. R. Rocha**
 - [LinkedIn](https://www.linkedin.com/in/joaogabrielrocha/)
-
-## 📄 Licença
-
-Este projeto está sob a licença especificada no arquivo `LICENSE`.
-
----
 
 ⭐ **Se este projeto foi útil para você, considere dar uma estrela!** 
