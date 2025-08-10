@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "Mozilla";
+  src: url(fonts/MozillaText-VariableFont_wght.ttf);
+}
+
+:root {
+  --primary-font: "Mozilla";
+  --second-font: "Roboto";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  box-sizing: border-box;
+}
+
+h1 {
+  /* background-color: orange; */
+  color: #1d3557;
+
+  padding: 15px;
+  margin-top: -40px;
+  position: relative;
+  top: -10px;
+
+  text-align: center;
+  font-family: var(--second-font);
+}
+
+body {
+  height: 100dvh;
+  max-width: 100dvw;
+  overflow-x: hidden;
+}
+
+.container {
+  /* background-color: red; */
+  background-color: #f0f2f5;
+  /* color: white; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  height: 93.57dvh;
+  width: 100%;
+
+}
+
+.div-sub-container {
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -25px;
+
+  padding: 30px;
+  gap: 12px;
+  width: 750px;
+  height: 450px;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 48px -5px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  font-family: "Inter";
+}
+
+.div-input-cpf {
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px;
+  gap: 12px;
+  margin-top: -20px;
+
+  /* background-color: green; */
+
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #1d3557;
+}
+
+#input-cpf {
+  /* text-indent: 5px; */
+  padding: 12px 16px;
+  font-family: "Roboto";
+  font-size: 15px;
+
+  width: 260px;
+  border-radius: 8px;
+
+  outline: none;
+  border: 1px solid #ced4da;
+  transition: box-shadow 0.2s;
+}
+
+#input-cpf:focus {
+  box-shadow: 0px 0px 12px 4px #26528f7c;
+}
+
+.div-input-tel {
+  user-select: none;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px;
+  gap: 10px;
+  margin-top: -20px;
+  /* background-color: blue; */
+
+  font-size: 18px;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+#input-tel {
+  /* text-indent: 5px; */
+  padding: 12px 16px;
+  font-family: "Roboto";
+  font-size: 15px;
+
+  width: 260px;
+  border-radius: 8px;
+
+  outline: none;
+  border: 1px solid #ced4da;
+
+  transition: box-shadow 0.2s;
+}
+
+#input-tel:focus {
+  box-shadow: 0px 0px 12px 4px #26528f7c;
+}
+
+.div-button-submit {
+  border: 2px solid #26518f;
+  width: 220px;
+  padding: 10px;
+
+  /* font-family: 'Roboto'; */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #26518f;
+
+  border-radius: 15px;
+
+  transition: box-shadow 0.15s, background-color 0.15s, color 0.2s;
+}
+
+.div-button-submit:hover {
+  cursor: pointer;
+  background-color: #26518f;
+  color: white;
+  box-shadow: 0px 0px 12px 4px #26518f;
+  border-color: none;
+}
+
+footer {
+  background-color: white;
+  /* background-color: red; */
+  color: #1d3557;
+
+  padding: 20px;
+  text-align: center;
+  
+  position: sticky;
+  bottom: 0;
+
+
+  box-shadow: 0px 0px 48px -20px rgba(0, 0, 0, 0.75);
+}
+
+#footer-autor{
+    user-select: none;
+    transition: font 0.2s;
+    text-decoration: none;
+    color: #1d3557;
+}
+
+#footer-autor:hover{
+    font-weight: bold;
+    cursor: pointer;
+
+}
